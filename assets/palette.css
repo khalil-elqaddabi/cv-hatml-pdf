@@ -14,7 +14,7 @@ header {
 
 header .img-wrapper {
     height: 100%;
-    width: 9rem;
+    width: 11rem;
     flex-shrink: 0;
     display: flex;
     align-items: center;
@@ -55,6 +55,11 @@ header .left-side .bottom > ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    gap: 0 1rem;
+}
+
+header .left-side .bottom .contacts::before {
+    display: none;
 }
 
 header .left-side .bottom .contacts:nth-child(n + 2)::before {
